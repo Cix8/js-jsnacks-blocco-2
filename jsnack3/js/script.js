@@ -9,6 +9,6 @@ while (isNaN(userNumber)) {
 console.log(userNumber, typeof(userNumber));
 
 for (let i = userNumber; i > 0; i--) {
-    result = `${i} - ${i*i*i}`;
+    result = `${i}^3 = ${i*i*i}`;
     console.log(result);
 }
